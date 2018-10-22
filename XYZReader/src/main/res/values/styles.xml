@@ -31,4 +31,20 @@
         <item name="android:layout_gravity">center</item>
     </style>
 
+    <style name="Theme.Bacon.BookCard">
+
+    </style>
+
+    <style name="Theme.Bacon.BookCard.Title" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
