@@ -18,11 +18,17 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Bacon.Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_marginLeft">@dimen/list_toolbar_side_margin</item>
+        <item name="android:layout_marginRight">@dimen/list_toolbar_side_margin</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
 </resources>
